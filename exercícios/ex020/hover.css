@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+div:hover {
+    color: red;
+}
+
+
+div:hover > p {
+    width: 400px;
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+div > p {
+    display: none;
+}
+

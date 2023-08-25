@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+h1 { /* box-level */
+    background-color: lightgrey;
+    height: 200px;
+    width: 200px;
+    
+     /* A borda do conteúdo*/
+    
+    border: 10px solid lightblue;
+
+     /* A margem ( espaço externo )*/
+    
+    margin: 20px auto 20px auto;                            /* shorthands */
+     
+    /* espaço entre a borda e o conteúdo */
+    
+    padding: 10px 10px 10px 10px;
+
+    /* espaço fora da margem */
+    
+    outline: 10px dashed black;
+    
+    
+}
+
+a { /* inline-level */
+   text-decoration: none;
+   color: red;
+
+    border: 4px;
+    border-style: solid;
+    border-color: lightblue;
+    
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;        /* A margem ( espaço externo )*/
+    margin-left: 1px;
+    
+     
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+
+    outline-style: groove;
+    outline-color: black;
+    outline-width: 2px;
+
+}

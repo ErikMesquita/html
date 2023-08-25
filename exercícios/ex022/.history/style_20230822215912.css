@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/IDroid.otf') format('opentype');
+}
+@font-face {
+    font-family: ;
+    src: url('fontes/BebasNeue-Regular.otf');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fab66;
+    --cor4: #063d1e;
+    --font0: #Arial, Helvetica, sans-serif;
+    --font: 'Android';
+
+}

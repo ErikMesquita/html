@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'love';
+    src: url('love\ larry\ ttf.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quadradinha.truetype.ttf';
+    src: url('quadradinha.truetype.ttf') format('truetype');
+    
+}
+
+/*
+    Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embeddet-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - SVG
+*/
+
+p {
+    font-size: 1.3em;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'quadradinha.truetype.ttf','Times New Roman', serif;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'love';
+    color: red;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'love', 'Times New Roman', serif;
+}

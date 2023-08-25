@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/IDroid.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fab66;
+    --cor4: #063d1e;
+    --font0: Arial, Helvetica, sans-serif;
+    --font1: 'Android', serif;
+    --font2: 'BebasNeue', sans-serif;
+
+}
+
+* {
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient to bottom(var);
+    padding: 20px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: linear-gradient(to top, #13678A, #45C4B0, #9AEBA3, #DAFDBA);
+    
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+
+
+#Principal {
+    text-align: center;
+    font-size: 3em;
+    color: black;
+
+}
+
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+.destaque{
+    font-style: italic;
+    font-weight: 550;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+
+}

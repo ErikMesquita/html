@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+    body {
+       
+            /*
+            medidas absoloutas:
+            cm, mm, in (polegada), px, pt, pc (aas duas últimas são para referentes a escrita de papel)
+
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            
+            utilize o px e o em para font-size
+
+            o padrão é 16px = 1em
+            */  
+       
+        /*
+        font-style: italic;
+        
+        font-style: italic, normal, oblique (para o itálico)
+        */
+        
+        /*
+        font-weight: normal;
+     
+        font-weight: lighter, normal, bold, bolder (para o negrito, podemos usar  o peso numerérico de 100 - 900)
+        */
+
+        /*
+        shorthand = font-style - font-weight - font-size - font-family (use a tag font)
+        */
+
+        font: normal normal 1.2em Verdana, tahoma, sans-serif;
+        background-color: rgb(198, 149, 57);
+
+
+    }
+
+
+    h1, h2 {
+        font: italic bold  2.3em "times new roman ", times, serif;
+
+        
+    }
