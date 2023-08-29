@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background-image: url("imagens/moon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    margin-top: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    align-items: ;
+    display: inline-block;
+    
+
+}
+
+p {
+    color: white;
+    text-align: ;
+}
+
