@@ -1,0 +1,30 @@
+class MobileNavbar {
+    constructor () {
+        this.mobileMenu = document.querySelector(mobileMenu);
+        this.navList = document.querySelector(navList);
+        this.navLinks = document.querySelectorAll(navLinks);
+        this.activeClass = "active";
+    }
+
+    handleClick() {
+        console.log(this);
+        this.navList.classList.toggle(this.activeClass);
+    }
+
+    addClickEvent() {
+        this.mobileMenu.addEvenListener("click", this.handleClick);
+    }
+    init() {
+        if(this.mobileMenu) {
+            this.addClickEvent();
+        }
+        return this;
+    }
+}
+
+const MobileNavbar = new MobileNavbar(
+    ".molibe-menu",
+    ".nav-list",
+    ".nav-list li",
+);
+mobileNavbar.init();
