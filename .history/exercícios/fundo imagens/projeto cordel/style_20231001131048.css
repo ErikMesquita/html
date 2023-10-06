@@ -1,0 +1,22 @@
+* {
+
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+}
+
+header h1 {
+    margin: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}

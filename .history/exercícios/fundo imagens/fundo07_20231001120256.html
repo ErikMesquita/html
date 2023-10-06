@@ -10,7 +10,7 @@
             background-size: 100vh;
             background-color: purple;
             width: auto;
-            height: 96vh;
+            height: 500px;
             position: relative;
         }
 
@@ -23,23 +23,26 @@
 
                 position: relative; (Aqui não altera a posição, no entanto não fica mais estática, e você pode atribuir mudanças da posição com as propriedades: Top, Right, Bottom e Left, resumindo é um ajuste manual).
 
-                position: absolute; (Nesse você está dizendo que o elemento é absoluto, e que o elemento irá sobrepor quaisquer elementos que existirem, no entanto você pode limitá-lo a um container).
-
-                position: sticky; (Ele muda para uma fixação, como por exemplo uma barra de menu que se prende na tela ao rolar para baixo).
+                position: absolute; (Nesse você está dizendo que o elemento é absoluto)
             */
 
             width: 200px;
             height: 150px;
             background-color: yellow;
-            top: 50%;
             left: 50%;
-
-            transform: translate(-50%, -50%);
-
-            /* esse comando simplesmente transforma o container, mas ainda não sei usar suas propriedades */
+            top: 50%;
 
         }
 
+        section {
+            height: 0;
+            width: 0;
+        }
+
+        article {
+            height: 0;
+            width: 0;
+        }
     </style>
 </head>
 <body>

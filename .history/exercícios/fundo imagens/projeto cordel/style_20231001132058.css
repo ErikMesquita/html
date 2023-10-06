@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 170px;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section{
+    display: flex;
+}
+
+.line1 {
+    text-align: justify;
+    font-size: 40px;
+    justify-content: baseline;
+    max-width: 200px;
+    padding: 30px;
+}

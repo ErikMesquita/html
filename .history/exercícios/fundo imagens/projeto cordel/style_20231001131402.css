@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 170px;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
