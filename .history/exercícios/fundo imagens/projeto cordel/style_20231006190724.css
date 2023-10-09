@@ -4,10 +4,7 @@
 }
 
 body {
-    background-image: url('imagens/background001.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
+    background: url('imagens/background001.jpg') center center no-repeat; 
 }
 
 header {
@@ -45,6 +42,5 @@ header a:hover {
 
 p {
     background-color: #fff;
-    padding: 20px;
-    margin: 10px;
+    pad
 }

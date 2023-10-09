@@ -3,12 +3,7 @@
     padding: 0;
 }
 
-body {
-    background-image: url('imagens/background001.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
+back
 
 header {
     background-color: black;
@@ -41,10 +36,4 @@ header a:hover {
     padding: 30px;
     text-indent: 20px;
 
-}
-
-p {
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px;
 }

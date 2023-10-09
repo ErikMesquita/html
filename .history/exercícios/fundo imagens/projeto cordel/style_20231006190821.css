@@ -5,9 +5,6 @@
 
 body {
     background-image: url('imagens/background001.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-
 }
 
 header {
