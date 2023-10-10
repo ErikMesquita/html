@@ -1,24 +1,24 @@
-@charset "UTF-8";
-
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    
+
+}
+
 .joaninha{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
-    
     background-repeat: no-repeat;
 }
 
 .livrinho {
-    
-    background-image: url('imagens/background002.jpg');
+    background-image: url('');
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 header {
     background-color: black;
     color: #fff;
@@ -47,5 +47,6 @@ header a:hover {
 p {
     color: white;
     background-color: #ffffff52;
-    padding: 30px;
+    padding: 20px;
+    margin: 10px;
 }

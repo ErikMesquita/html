@@ -8,7 +8,6 @@
 .joaninha{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
-    
     background-repeat: no-repeat;
 }
 
@@ -47,5 +46,6 @@ header a:hover {
 p {
     color: white;
     background-color: #ffffff52;
-    padding: 30px;
+    padding: 20px;
+    margin: 10px;
 }

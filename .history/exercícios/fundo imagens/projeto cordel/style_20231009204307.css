@@ -1,22 +1,14 @@
-@charset "UTF-8";
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.joaninha{
+body {
     background-image: url('imagens/background001.jpg');
-    background-position: center center;
-    
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-}
 
-.livrinho {
-    
-    background-image: url('imagens/background002.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 
 header {
@@ -43,9 +35,17 @@ header a:hover {
 
 
 
+.line1 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+
+}
 
 p {
-    color: white;
-    background-color: #ffffff52;
-    padding: 30px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
 }

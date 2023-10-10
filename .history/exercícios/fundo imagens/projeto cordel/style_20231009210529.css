@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('imagens/background001.jpg');
+    background-size: contain;
+    background-position: ;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    height: 170px;
+    text-align: center;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+.line1 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+
+}
+
+.line2 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+}
+
+.line3 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+}
+
+.line4 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+}
+
+.line5 {
+    text-align: justify;
+    font-size: 30px;
+    max-width: 300px;
+    padding: 30px;
+    text-indent: 20px;
+}
+p {
+    color: white;
+    background-color: #ffffff52;
+    padding: 20px;
+    margin: 10px;
+}

@@ -8,7 +8,7 @@
 .joaninha{
     background-image: url('imagens/background001.jpg');
     background-position: center center;
-    
+    background-clip: ;
     background-repeat: no-repeat;
 }
 
