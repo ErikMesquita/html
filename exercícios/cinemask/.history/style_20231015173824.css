@@ -1,0 +1,423 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    color: #fff;
+    justify-content: space-around;
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+header div {
+    margin-top: 10px;
+    height: 30px;
+}
+
+
+
+main {
+    height: 1400px;
+    background-image: linear-gradient(to bottom, #03051F, #16194D, #181A36, #222338, #141C2E);
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.logo h1 {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: red;
+}
+
+#texto p {
+    text-align: justify;
+    text-indent: 1.5em;
+    max-width: 700px;
+    padding: 20px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+#texto h2 {
+    color: red;
+    text-decoration: underline;
+    margin: ;
+}
+
+#catalogo {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end;  
+    margin: 10px;
+}
+
+.content_shows1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+}
+
+.content_shows1 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows1 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows1 div .title-freira {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows1 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows1 div .freira {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows1 div:hover .freira,
+.content_shows1 div:hover .title-freira {
+    transform: translateY(0);
+}
+
+/* Aqui é uma separação*/
+
+.content_shows2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.content_shows2 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows2 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows2 div .title-anabelle2 {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows2 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows2 div .anabelle2 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows2 div:hover .anabelle2,
+.content_shows2 div:hover .title-anabelle2 {
+    transform: translateY(0);
+}
+
+/* Aqui é outra separação*/
+.content_shows3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.content_shows3 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows3 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows3 div .title-freira2 {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows3 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows3 div .freira2 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows3 div:hover .freira2,
+.content_shows3 div:hover .title-freira2 {
+    transform: translateY(0);
+}
+
+/* Separação*/
+
+.content_shows4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.content_shows4 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows4 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows4 div .title-anabelle {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows4 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows4 div .anabelle {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows4 div:hover .anabelle,
+.content_shows4 div:hover .title-anabelle {
+    transform: translateY(0);
+}
+
+/* Separação*/
+
+.content_shows5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.content_shows5 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows5 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows5 div .title-invocação1 {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows5 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows5 div .invocação1 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows5 div:hover .invocação1,
+.content_shows5 div:hover .title-invocação1 {
+    transform: translateY(0);
+}
+
+/*Separação */
+
+.content_shows6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px;
+
+}
+
+.content_shows6 div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content_shows6 div:hover img {
+    transform: scale(1.15);
+}
+
+.content_shows6 div .title-anabelle3 {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content_shows6 div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content_shows6 div .anabelle3 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content_shows6 div:hover .anabelle3,
+.content_shows6 div:hover .title-anabelle3 {
+    transform: translateY(0);
+}
+
+footer {
+    height: 100px;
+}

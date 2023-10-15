@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    height: 200px;
+}
+
+section {
+    background-color: grey;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.content__shows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content__shows div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content__shows div:hover img {
+    transform: scale(1.15);
+}
+
+.content__shows div .title-box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    
+}

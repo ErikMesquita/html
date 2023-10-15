@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 50px;
+    color: #fff;
+    justify-content: space-around;    
+}
+
+header a {
+    text-decoration: none;
+    color: red;
+}
+
+header div {
+    margin-top: 10px;
+    height: 30px;
+}
+
+header div:hover {
+    trans
+}
+
+main {
+    height: 800px;
+    background-image: linear-gradient( to bottom, #03051F, #16194D, #181A36, #222338, #141C2E);
+}
+
+.logo {
+    height: 100px;
+}
+
+.logo h1 {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    color: red;
+}
+
+
+section {
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+
+
+.content__shows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content__shows div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content__shows div:hover img {
+    transform: scale(1.15);
+}
+
+.content__shows div .title-box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content__shows div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content__shows div .name {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content__shows div:hover .name,
+.content__shows div:hover .title-box {
+    transform: translateY(0);
+}
+
+/* Aqui é uma separação*/
+
+.content___shows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content___shows div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content___shows div:hover img {
+    transform: scale(1.15);
+}
+
+.content___shows div .title--box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content___shows div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content___shows div .name2 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content___shows div:hover .name2,
+.content___shows div:hover .title--box {
+    transform: translateY(0);
+}
+
+/* Aqui é outra separação*/
+.content____shows {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content____shows div {
+    position: relative;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.content____shows div:hover img {
+    transform: scale(1.15);
+}
+
+.content____shows div .title---box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100%;
+    z-index: 1;
+}
+
+.content____shows div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content____shows div .name3 {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #fff;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content____shows div:hover .name3,
+.content____shows div:hover .title---box {
+    transform: translateY(0);
+}
+
+footer {
+    height: 300px;
+}
